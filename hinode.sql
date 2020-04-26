@@ -1,0 +1,7 @@
+CREATE TABLE hinode.students (
+    id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    student_id INT NOT NULL,
+    name VARCHAR(30),
+    age INT,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
